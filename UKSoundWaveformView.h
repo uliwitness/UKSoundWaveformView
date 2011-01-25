@@ -21,4 +21,27 @@
 
 -(NSSize)				bestSize;
 
+-(NSSize)				bestSize;
+
+-(void)					setAdjustsToWidth:(BOOL)adjustsToWidth;
+-(BOOL)					adjustsToWidth;
+
+-(void)					setBackgroundColor:(NSColor *)color;
+-(NSColor *)			backgroundColor;
+
+-(void)					setWaveformColor:(NSColor *)color;
+-(NSColor *)			waveformColor;
+
+-(void)					setBackgroundGradient:(NSGradient *)gradient;
+-(NSGradient *)			backgroundGradient;
+
+-(void)					setWaveformGradient:(NSGradient *)gradient;
+-(NSGradient *)			waveformGradient;
+
+-(void)					setCornerRadius:(CGFloat)cornerRadius;
+-(CGFloat)				cornerRadius;
+
+-(void)					setVerticalPadding:(CGFloat)padding;
+-(CGFloat)				verticalPadding;
+
 @end
