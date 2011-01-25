@@ -21,8 +21,6 @@
 
 -(NSSize)				bestSize;
 
--(NSSize)				bestSize;
-
 -(void)					setAdjustsToWidth:(BOOL)adjustsToWidth;
 -(BOOL)					adjustsToWidth;
 
